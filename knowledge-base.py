@@ -2,7 +2,7 @@ import os
 import openai
 import json
 from openai import OpenAI
-openai.organization="org-SxZPUR65qMsTXanOXuA8WkX3"
+openai.organization="org-SxZP*****************WkX3"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI()
 
