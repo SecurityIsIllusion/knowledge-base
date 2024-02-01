@@ -45,7 +45,7 @@ def process_user_input(user_input):
 
 #    if user_input in knowledge_base:
     if user_input_lower in knowledge_base:
-        response = knowledge_base[user_input]
+        response = knowledge_base[user_input_lower]
 
 #        session.append({
 #            "input": user_input_lower,
